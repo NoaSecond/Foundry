@@ -1,5 +1,14 @@
 # StarDeception - Foundry
 
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-NoaSecond%2FFoundry-blue?style=flat-square&logo=github)](https://github.com/NoaSecond/Foundry)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Bash](https://img.shields.io/badge/Bash-5.0+-brightgreen?style=flat-square&logo=gnu-bash)](https://www.gnu.org/software/bash/)
+[![Game Server](https://img.shields.io/badge/Game%20Server-StarDeception-purple?style=flat-square&logo=gamepad)](https://github.com/NoaSecond/Foundry)
+
+</div>
+
 Simple interactive script to manage StarDeception game servers.
 
 ## 🚀 Quick Start
