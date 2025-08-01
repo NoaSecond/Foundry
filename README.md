@@ -1,4 +1,4 @@
-# StarDeception Game Server Manager
+# StarDeception - Foundry
 
 Simple interactive script to manage StarDeception game servers.
 
@@ -61,6 +61,10 @@ If the identifier is not valid:
 - Letters and special characters are not allowed
 
 ---
+
+## 📄License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Contributeur
 
