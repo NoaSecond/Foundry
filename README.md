@@ -65,7 +65,9 @@ That's it! The script handles everything else for you.
 ### Permission Error
 If you get a "Permission denied" error:
 ```bash
-chmod +x create_servers.sh delete_servers.sh
+chmod +x Foundry.sh
+chmod +x scripts/*.sh
+chmod +x src/StarDeception.dedicated_server.sh
 ```
 
 ### Identifier Error

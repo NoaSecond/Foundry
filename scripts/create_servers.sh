@@ -192,8 +192,35 @@ SDO="${sdo_ip}"
 EOF
 
   # Copy the server files from src directory
-  cp "src/StarDeception.dedicated_server.sh" "$folder/"
-  cp "src/StarDeception.dedicated_server.x86_64" "$folder/"
+  echo -e "${BLUE}Copying server files...${NC}"
+  
+  # Get the script directory to build absolute paths
+  script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  project_dir="$(dirname "$script_dir")"
+  src_dir="$project_dir/src"
+  
+  # Check if source files exist before copying
+  if [[ ! -f "$src_dir/StarDeception.dedicated_server.sh" ]]; then
+    echo -e "${RED}✗ Error: $src_dir/StarDeception.dedicated_server.sh not found${NC}"
+    continue
+  fi
+  
+  if [[ ! -f "$src_dir/StarDeception.dedicated_server.x86_64" ]]; then
+    echo -e "${YELLOW}⚠ Warning: $src_dir/StarDeception.dedicated_server.x86_64 not found${NC}"
+    echo -e "${YELLOW}  Server will be created but binary needs to be downloaded separately${NC}"
+  fi
+  
+  # Copy files
+  cp "$src_dir/StarDeception.dedicated_server.sh" "$folder/" || {
+    echo -e "${RED}✗ Failed to copy StarDeception.dedicated_server.sh${NC}"
+    continue
+  }
+  
+  if [[ -f "$src_dir/StarDeception.dedicated_server.x86_64" ]]; then
+    cp "$src_dir/StarDeception.dedicated_server.x86_64" "$folder/" || {
+      echo -e "${YELLOW}⚠ Failed to copy binary file${NC}"
+    }
+  fi
 
   ((port++))
 done
