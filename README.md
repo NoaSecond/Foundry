@@ -5,7 +5,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-NoaSecond%2FFoundry-blue?style=flat-square&logo=github)](https://github.com/NoaSecond/Foundry)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Bash](https://img.shields.io/badge/Bash-5.0+-brightgreen?style=flat-square&logo=gnu-bash)](https://www.gnu.org/software/bash/)
-[![Game Server](https://img.shields.io/badge/Game%20Server-StarDeception-purple?style=flat-square&logo=gamepad)](https://github.com/NoaSecond/Foundry)
 
 </div>
 
@@ -13,17 +12,22 @@ Simple interactive script to manage StarDeception game servers.
 
 ## 🚀 Quick Start
 
-### 1. Go in the right folder
+### 1. Clone the Repository
 ```bash
-cd ./SDO/Foundry
+git clone https://github.com/NoaSecond/Foundry.git
 ```
 
-### 2. Run the Manager
+### 2. Go in the right folder
 ```bash
-sudo bash StarDeception_GameServer.sh
+cd ./Foundry
 ```
 
-### 3. Follow the Menu
+### 3. Run the Manager
+```bash
+sudo bash Foundry.sh
+```
+
+### 4. Follow the Menu
 The script provides an interactive menu with these options:
 - **Create new servers** - Set up game server instances
 - **Delete all servers** - Remove all server directories
@@ -33,7 +37,7 @@ The script provides an interactive menu with these options:
 
 ## � First Time Setup
 
-1. Run the script: `./StarDeception_GameServer.sh`
+1. Run the script: `./Foundry.sh`
 2. Choose "Create new servers"
 3. Enter the required information when prompted
 4. Use "Start all servers" to launch them
@@ -44,7 +48,7 @@ The script will automatically handle the dedicated server binary download when n
 
 ```
 Foundry/
-├── StarDeception_GameServer.sh    # Main script (run this)
+├── Foundry.sh                     # Main script (run this)
 ├── scripts/                       # Helper scripts (auto-managed)
 ├── src/                          # Server binary and config
 └── server1/, server2/, ...       # Your game servers
