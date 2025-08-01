@@ -2,8 +2,7 @@
 *.x86_64
 *.exe
 *.bin
-StarDeception.dedicated_server
-StarDeception.dedicated_server.*
+StarDeception.dedicated_server.x86_64
 
 # Generated Server Directories
 server*/
