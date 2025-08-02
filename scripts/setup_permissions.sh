@@ -38,6 +38,9 @@ echo -e "${GREEN}✓ repair_servers.sh${NC}"
 chmod +x status_servers.sh
 echo -e "${GREEN}✓ status_servers.sh${NC}"
 
+chmod +x docker_server.sh
+echo -e "${GREEN}✓ docker_server.sh${NC}"
+
 # Set permissions for setup permissions script itself
 chmod +x setup_permissions.sh
 echo -e "${GREEN}✓ setup_permissions.sh${NC}"
