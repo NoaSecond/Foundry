@@ -1,14 +1,18 @@
 # StarDeception - Foundry
 
 <div align="center">
+  <img src="Foundry Logo.svg" alt="StarDeception - Foundry Logo" width="150" height="150">
+</div>
 
+Simple interactive script to manage StarDeception game servers.
+
+<div align="center">
+  
 [![GitHub](https://img.shields.io/badge/GitHub-NoaSecond%2FFoundry-blue?style=flat-square&logo=github)](https://github.com/NoaSecond/Foundry)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Bash](https://img.shields.io/badge/Bash-5.0+-brightgreen?style=flat-square&logo=gnu-bash)](https://www.gnu.org/software/bash/)
 
 </div>
-
-Simple interactive script to manage StarDeception game servers.
 
 ## 🚀 Quick Start
 
@@ -27,32 +31,7 @@ cd ./Foundry
 sudo bash Foundry.sh
 ```
 
-### 4. Follow the Menu
-The script provides an interactive menu with these options:
-- **Create new servers** - Set up game server instances
-- **Delete all servers** - Remove all server directories
-- **Start all servers** - Launch configured servers (auto-downloads binary)
-- **Stop all servers** - Stop running servers
-- **Exit** - Close the application
-
-## � First Time Setup
-
-1. Run the script: `./Foundry.sh`
-2. Choose "Create new servers"
-3. Enter the required information when prompted
-4. Use "Start all servers" to launch them
-
 The script will automatically handle the dedicated server binary download when needed.
-
-## 📁 What Gets Created
-
-```
-Foundry/
-├── Foundry.sh                     # Main script (run this)
-├── scripts/                       # Helper scripts (auto-managed)
-├── src/                          # Server binary and config
-└── server1/, server2/, ...       # Your game servers
-```
 
 ## 🔧 Requirements
 
@@ -81,6 +60,6 @@ If the identifier is not valid:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Contributeur
+## 👨‍💻 Contributor
 
-**Game Server Manager développé par [𝕭𝖗𝖚𝖒𝖊](https://noasecond.com)**
+**Foundry developed by [𝕭𝖗𝖚𝖒𝖊](https://noasecond.com)**
