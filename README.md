@@ -63,3 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Contributor
 
 **Foundry developed by [𝕭𝖗𝖚𝖒𝖊](https://noasecond.com)**
+**Docker integration developed by [BreizhHardware](https://mrqt.fr)**
