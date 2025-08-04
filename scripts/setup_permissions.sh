@@ -13,8 +13,8 @@ echo -e "${CYAN}========== Setting Up Permissions ==========${NC}"
 echo
 
 # Set permissions for main script
-chmod +x ../StarDeception_GameServer.sh
-echo -e "${GREEN}✓ ../StarDeception_GameServer.sh${NC}"
+chmod +x ../Foundry.sh.sh
+echo -e "${GREEN}✓ ../Foundry.sh.sh${NC}"
 
 # Set permissions for scripts in scripts directory
 chmod +x create_servers.sh
